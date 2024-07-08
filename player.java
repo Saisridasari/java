@@ -73,10 +73,10 @@ public class MusicPlayer implements ActionListener {
         controlPanel = new JPanel(); //Control Selection Panel
 
         //Creating icons for buttons
-        iconPlay = new ImageIcon("C:\\Users\\NARENDER KESWANI\\Downloads\\play-button.png");
-        iconPause = new ImageIcon("C:\\Users\\NARENDER KESWANI\\Downloads\\pause-button.png");
-        iconResume = new ImageIcon("C:\\Users\\NARENDER KESWANI\\Downloads\\resume-button.png");
-        iconStop = new ImageIcon("C:\\Users\\NARENDER KESWANI\\Downloads\\stop-button.png");
+        iconPlay = new ImageIcon("C:\\Users\\play-button-icon-png-33.png\\Downloads");
+        iconPause = new ImageIcon("C:\\Users\\OIP.JEPG\\Downloads");
+        iconResume = new ImageIcon("C:\\Users\\resume-button.pgn\\Downloads");
+        iconStop = new ImageIcon("C:\\Users\\stop.pgn\\Downloads");
 
         //Creating image buttons
         play = new JButton(iconPlay);
@@ -222,6 +222,6 @@ public class MusicPlayer implements ActionListener {
     };
 
     public static void main(String[] args) {
-        MusicPlayer mp = new MusicPlayer();
+        MusicPlayer mp3Player = new MusicPlayer();
     }
 }
